@@ -12,7 +12,7 @@ $$
 $$
 \text{GetLength}: \Sigma^* \to \text{N} \quad / \quad \text{GetLength}(s) = 
 \begin{cases} 
-      0 &  \s \text{=} \varepsilon \\
-      1 &  \text{1 + GetLength}(t) h . t, h \in \Sigma
+      0 &  s \text{=} \varepsilon \\
+      \text{1 + GetLength}(t) &   h . t,  h \in \Sigma
 \end{cases}
 $$
